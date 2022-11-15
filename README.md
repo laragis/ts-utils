@@ -2,13 +2,13 @@
 
 ---
 
-# my-ts-lib
+# Ts Utils
 
-[![npm version](https://badgen.net/npm/v/my-ts-lib)](https://npm.im/my-ts-lib) [![npm downloads](https://badgen.net/npm/dm/my-ts-lib)](https://npm.im/my-ts-lib)
+[![npm version](https://badgen.net/npm/v/ts-utils)](https://npm.im/ts-utils) [![npm downloads](https://badgen.net/npm/dm/ts-utils)](https://npm.im/ts-utils)
 
 ## Using this template
 
-- Search `my-ts-lib` and replace it with your custom package name.
+- Search `ts-utils` and replace it with your custom package name.
 - Search `egoist` and replace it with your name.
 
 Features:
@@ -23,8 +23,15 @@ To skip CI (GitHub action), add `skip-ci` to commit message. To skip release, ad
 ## Install
 
 ```bash
-npm i my-ts-lib
+npm i ts-utils
 ```
+
+## Libraries
+- https://github.com/ai/nanoid
+- https://vocajs.com
+- https://github.com/validatorjs/validator.js
+- https://github.com/lukeed/clsx
+- https://fusejs.io
 
 ## Sponsors
 

@@ -1,6 +1,6 @@
 {
   "name": "my-ts-lib",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "My awesome typescript library",
   "publishConfig": {
     "access": "public"
@@ -24,9 +24,14 @@
   "license": "MIT",
   "devDependencies": {
     "@egoist/prettier-config": "1.0.0",
+    "@types/lodash": "^4.14.189",
     "prettier": "2.5.1",
     "tsup": "6.0.1",
     "typescript": "4.5.4",
     "vitest": "0.12.6"
+  },
+  "dependencies": {
+    "licia": "^1.37.0",
+    "lodash": "^4.17.21"
   }
 }

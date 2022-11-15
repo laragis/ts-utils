@@ -1,1 +1,41 @@
-export const foo = 'foo'
+export {default as toLetter} from './toLetter'
+export {default as toRoman} from './toRoman'
+
+export {default as sleep} from 'licia/sleep'
+export {default as toBool} from 'licia/toBool'
+export {default as castPath} from 'licia/castPath'
+export {default as download} from 'licia/download'
+export {default as extractUrls} from 'licia/extractUrls'
+export {default as fill} from 'licia/fill'
+export {default as fullscreen} from 'licia/fullscreen'
+export {default as hotkey} from 'licia/hotkey'
+export {default as loadCss} from 'licia/loadCss'
+export {default as loadImg} from 'licia/loadImg'
+export {default as loadJs} from 'licia/loadJs'
+export {default as naturalSort} from 'licia/naturalSort'
+export {default as parallel} from 'licia/parallel'
+export {default as query} from 'licia/query'
+export {default as randomId} from 'licia/randomId'
+export {default as scrollTo} from 'licia/scrollTo'
+export {default as tryIt} from 'licia/tryIt'
+export {default as type} from 'licia/type'
+
+// String
+export {default as getUrlParam} from 'licia/getUrlParam'
+
+export {default as startWith} from 'licia/startWith'
+export {default as endWith} from 'licia/endWith'
+export {default as strTpl} from 'licia/strTpl'
+export {default as stripHtmlTag} from 'licia/stripHtmlTag'
+
+// Assert
+export {default as isAbsoluteUrl} from 'licia/isAbsoluteUrl'
+export {default as isDataUrl} from 'licia/isAbsoluteUrl'
+export {default as isDate} from 'licia/isDate'
+export {default as isEl} from 'licia/isEl'
+export {default as isEmail} from 'licia/isEmail'
+export {default as isGeneratorFn} from 'licia/isGeneratorFn'
+export {default as isJson} from 'licia/isJson'
+export {default as isMobile} from 'licia/isMobile'
+export {default as isUrl} from 'licia/isUrl'
+
