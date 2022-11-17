@@ -1,5 +1,5 @@
 {
-  "name": "my-ts-lib",
+  "name": "@ttungbmt/ts-utils",
   "version": "0.0.1",
   "description": "My awesome typescript library",
   "publishConfig": {
@@ -17,9 +17,11 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build-fast": "tsup src/index.ts --format cjs,esm",
-    "build": "pnpm run build-fast -- --dts-resolve",
+    "build": "pnpm run build-fast --dts-resolve",
+    "dev": "pnpm run build-fast --dts-resolve --watch",
     "test": "vitest run",
-    "prepublishOnly": "pnpm run build"
+    "prepublishOnly": "pnpm run build",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "license": "MIT",
   "devDependencies": {
