@@ -39,3 +39,5 @@ export {default as isJson} from 'licia/isJson.js'
 export {default as isMobile} from 'licia/isMobile.js'
 export {default as isUrl} from 'licia/isUrl.js'
 
+export {default as downloadImage} from './downloadImage'
+
