@@ -16,12 +16,10 @@
   },
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build-fast": "tsup src/index.ts --format cjs,esm",
-    "build": "pnpm run build-fast --dts-resolve",
-    "dev": "pnpm run build-fast --dts-resolve --watch",
+    "build": "tsup",
+    "dev": "tsup --watch",
     "test": "vitest run",
-    "prepublishOnly": "pnpm run build",
-    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+    "clean": "rimraf node_modules .turbo dist"
   },
   "license": "MIT",
   "devDependencies": {
