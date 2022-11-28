@@ -19,6 +19,7 @@ export {default as randomId} from 'licia/randomId.js'
 export {default as scrollTo} from 'licia/scrollTo.js'
 export {default as tryIt} from 'licia/tryIt.js'
 export {default as type} from 'licia/type.js'
+export {default as fileSize} from 'licia/fileSize.js'
 
 // String
 export {default as getUrlParam} from 'licia/getUrlParam.js'
@@ -40,4 +41,6 @@ export {default as isMobile} from 'licia/isMobile.js'
 export {default as isUrl} from 'licia/isUrl.js'
 
 export {default as downloadImage} from './downloadImage'
+export {default as selectApiData} from './selectApiData'
+export {default as formatDate} from './formatDate'
 
