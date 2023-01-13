@@ -176,7 +176,7 @@ var selectApiData = (data) => {
 };
 var selectApiData_default = selectApiData;
 
-// src/formatDate.js
+// src/formatDate.ts
 var import_moment = __toESM(require("moment"));
 function formatDate(date, format = "DD/MM/YYYY") {
   return date ? (0, import_moment.default)(date).format(format) : null;
